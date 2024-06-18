@@ -1,0 +1,25 @@
+//Hengyu Zhang 31278299
+//start date: 8.20 2021
+//finish date:  8.27 2021
+/*description of my program:
+	first you need to compile the program by gcc
+	THis program is for operating the file in low io condition.
+	task 1 is to print the first 10 lines of sample.txt on terminal.
+		you can access this by command ./a.out 
+		
+	task 2 is to chose the file we want to print first 10 lines from the file we choose
+		you can access this by command ./a.out a.txt
+		
+	task 3 is to make the copy of file and it holds the first 10 lines of the original file
+		you can access this by command ./a.out a.txt -d /home/student/Desktop
+	
+	task 4 is to choose the length of the lines we want to print or copy
+		you can access this by command ./a.out a.txt -n 5
+	
+	task 5 is to print or copy the last 10 lines of the file
+		you can access this by command ./a.out -L
+	
+	Above all, I complete all these five tasks each. But when I see the 5.6 I find it need to 
+	operate the combination of these arguments("-L" "-n" "-d"). I have to admit that my pogram
+	can only operate comment with the argc less than 5.
+*/
